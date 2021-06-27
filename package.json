@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/stats-incr-mse",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Compute the mean squared error (MSE) incrementally.",
   "license": "Apache-2.0",
   "author": {
