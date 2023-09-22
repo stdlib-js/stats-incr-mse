@@ -63,7 +63,7 @@ The [mean squared error][mean-squared-error] is defined as
 ## Usage
 
 ```javascript
-import incrmse from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mse@esm/index.mjs';
+import incrmse from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mse@v0.1.0-esm/index.mjs';
 ```
 
 #### incrmse()
@@ -121,7 +121,7 @@ m = accumulator();
 <script type="module">
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import incrmse from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mse@esm/index.mjs';
+import incrmse from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mse@v0.1.0-esm/index.mjs';
 
 var accumulator;
 var v1;
