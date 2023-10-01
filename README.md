@@ -56,19 +56,30 @@ The [mean squared error][mean-squared-error] is defined as
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-incr-mse
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import incrmse from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mse@deno/mod.js';
-```
-The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-incr-mse/tags). For example,
-
-```javascript
-import incrmse from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mse@v0.1.0-deno/mod.js';
+var incrmse = require( '@stdlib/stats-incr-mse' );
 ```
 
 #### incrmse()
@@ -120,8 +131,8 @@ m = accumulator();
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import incrmse from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mse@deno/mod.js';
+var randu = require( '@stdlib/random-base-randu' );
+var incrmse = require( '@stdlib/stats-incr-mse' );
 
 var accumulator;
 var v1;
@@ -169,7 +180,7 @@ console.log( accumulator() );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -199,8 +210,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/stats-incr-mse.svg
 [npm-url]: https://npmjs.org/package/@stdlib/stats-incr-mse
 
-[test-image]: https://github.com/stdlib-js/stats-incr-mse/actions/workflows/test.yml/badge.svg?branch=v0.1.0
-[test-url]: https://github.com/stdlib-js/stats-incr-mse/actions/workflows/test.yml?query=branch:v0.1.0
+[test-image]: https://github.com/stdlib-js/stats-incr-mse/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/stats-incr-mse/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/stats-incr-mse/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/stats-incr-mse?branch=main
@@ -233,11 +244,11 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/stats/incr/mmse]: https://github.com/stdlib-js/stats-incr-mmse/tree/deno
+[@stdlib/stats/incr/mmse]: https://github.com/stdlib-js/stats-incr-mmse
 
-[@stdlib/stats/incr/rmse]: https://github.com/stdlib-js/stats-incr-rmse/tree/deno
+[@stdlib/stats/incr/rmse]: https://github.com/stdlib-js/stats-incr-rmse
 
-[@stdlib/stats/incr/rss]: https://github.com/stdlib-js/stats-incr-rss/tree/deno
+[@stdlib/stats/incr/rss]: https://github.com/stdlib-js/stats-incr-rss
 
 <!-- </related-links> -->
 
