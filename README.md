@@ -63,6 +63,11 @@ The [mean squared error][mean-squared-error] is defined as
 ## Usage
 
 ```javascript
+import incrmse from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mse@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-incr-mse/tags). For example,
+
+```javascript
 import incrmse from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mse@v0.2.3-deno/mod.js';
 ```
 
@@ -116,7 +121,7 @@ m = accumulator();
 
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import incrmse from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mse@v0.2.3-deno/mod.js';
+import incrmse from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mse@deno/mod.js';
 
 var accumulator;
 var v1;
